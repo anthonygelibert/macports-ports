@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           github 1.0
 PortGroup           python 1.0
 
-github.setup        jeffkaufman icdiff 1.9.1 release-
+github.setup        jeffkaufman icdiff 1.9.5 release-
 categories          textproc sysutils devel
 platforms           darwin
 maintainers         {raimue @raimue} \
@@ -20,10 +20,10 @@ long_description    \
 
 homepage            http://www.jefftk.com/icdiff
 
-checksums           rmd160  118cd781f26348efb116e582b963c3467af99ea6 \
-                    sha256  8d7da8a3a8c8110ff227924bea42f3892e8a221d6da22cb71d81dbd2cde91d9b \
-                    size    24380
+checksums           rmd160  0f1782e74503b70f65ecf0585595813eb77821ff \
+                    sha256  0530a80d678f20aaabda95afa1a89571a77d8d4cc66ea9113fb945a0d9709509 \
+                    size    31901
 
-python.default_version 27
+python.default_version 38
 
 depends_build-append port:py${python.version}-setuptools
